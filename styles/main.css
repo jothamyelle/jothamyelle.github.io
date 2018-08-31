@@ -14,9 +14,9 @@
 
 .sidebar {
   position: fixed;
-  padding:2.5em 1.5em 1.5em;
+  padding:.5em 1.5em 1.5em;
   width: 225px;
-  background-color: #8fd2fc;
+  background-color: #66c4ff;
   height:100%;
 }
 
@@ -42,8 +42,9 @@
 .emailAddress {
   margin-left:.5em;
   font-size:12px;
-  color: black;
   text-decoration: none;
+  font-weight:bold;
+  color:white;
 }
 
 .description, .image-box {
@@ -62,8 +63,13 @@
   font-size:54px;
 }
 
-.languages-frameworks, .systems-db {
-  margin-top:65px;
+.skillHeading, .contact-info h4 {
+  font-weight:bold;
+}
+
+.skillInfo, .contactIcons {
+  font-weight:bold;
+  color:white;
 }
 
 .section-divider {
