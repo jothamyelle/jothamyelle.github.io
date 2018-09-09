@@ -310,4 +310,7 @@
   .project-paragraph {
     display: none;
   }
+  .title-label {
+    margin-top: calc(100vw / 3.75);
+  }
 }
