@@ -3,6 +3,15 @@
   height:100vh;
 }
 
+.noStyleLink {
+  text-decoration: none;
+  color:black;
+}
+
+.project-date {
+  font-style: italic;
+}
+
 .header-img {
   margin-bottom:1em;
 }
@@ -30,6 +39,10 @@
   width:50%;
 }
 
+.image-box img {
+  border-radius:5px;
+}
+
 .image-box img, .header-info div {
   width:100%;
 }
@@ -55,8 +68,22 @@
   text-align: left;
 }
 
-.lang-icons, .lib-icons {
-  margin-top:10px;
+.lang-icons {
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+  max-width:632px;
+}
+.lang-icons-img {
+  flex: 1;
+  width: 0;
+  height:40px;
+}
+
+.biggerImg {
+  flex:2;
+  width: 0;
+  height:40px;
 }
 
 .myName {
@@ -89,6 +116,7 @@
   font-weight: bold;
   font-size: 1.5em;
   width:auto;
+  padding-left: 5px;
 }
 
 .projectHeading, .employmentHeading, .educationHeading {
