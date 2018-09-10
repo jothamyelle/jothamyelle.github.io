@@ -148,6 +148,22 @@
   display: none;
 }
 
+.pdfVersion {
+  width:100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.pdfImage {
+  width:40px;
+  height: 40px;
+  position: absolute;
+  top: 5px;
+  right: 2px;
+}
+
 @media only screen and (max-width : 960px) {
   .sidebar {
     padding: .5em .5em 0;

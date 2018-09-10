@@ -1,0 +1,145 @@
+.resume-body {
+  padding-top: 1em;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+}
+
+.noStyleLink {
+  text-decoration: none;
+  color:black;
+}
+
+.project-date {
+  font-style: italic;
+}
+
+.header-img {
+  margin-bottom:1em;
+}
+
+.contact-info div a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar {
+  flex:1;
+  padding:.5em 1.5em 1.5em;
+  border-right: solid grey 1px;
+}
+
+.main-content {
+  flex:2;
+  padding:.5em 1.5em;
+  width: 100%;
+}
+
+.image-box {
+  width:50%;
+}
+
+.image-box img {
+  border-radius:5px;
+}
+
+.image-box img, .header-info div {
+  width:100%;
+}
+
+.contact-info {
+  width:100%;
+  word-wrap: break-word;
+}
+
+.emailAddress {
+  color: black;
+  margin-left:.5em;
+  font-size:12px;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+.description, .image-box {
+  padding:.5em;
+}
+
+.description {
+  text-align: left;
+}
+
+.lang-icons {
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+  max-width:632px;
+}
+.lang-icons-img {
+  flex: 1;
+  width: 0;
+  height:40px;
+  padding:0 3px;
+}
+
+.biggerImg {
+  flex:2;
+  width: 0;
+  height:40px;
+}
+
+.myName {
+  font-size:44px;
+}
+
+.skillHeading, .contact-info h4 {
+  font-weight:bold;
+}
+
+.section-divider {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.divider-line {
+  border-bottom: 3px solid #8fd2fc;
+  height:19px;
+  vertical-align: middle;
+  width:100%;
+}
+
+.divider-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  width:auto;
+  padding-left: 5px;
+}
+
+.projectHeading, .employmentHeading, .educationHeading {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.project-box {
+  display: flex;
+}
+
+.project-description {
+  width: 50%;
+}
+
+.project-img {
+  width:50%;
+}
+
+.project-img img {
+  width:100%;
+}
+
+.project-description, .project-img {
+  padding: .5em 1.5em 1.5em;
+}
+
+.hideTil860 {
+  display: none;
+}
